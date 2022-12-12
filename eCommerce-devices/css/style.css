@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #de0f31;
+  accent-color: var(--primary);
+}
+
+
+.card  {
+  margin-bottom: 50px;
+}
+
+
+.card .card-title {
+  color: var(--primary) !important;
+}
+
+ .btn-primary {
+  background-color: var(--primary);
+  color: #fff;
+  border:0;
+}
+ .btn-primary:hover,
+  .btn-primary:focus {
+  background-color: var(--primary);
+  color: #fff;
+  border:0;
+  opacity: .8;
+}
+
+.tool {
+  top: 55px;
+  background: #fff;
+  width: 100%;
+  z-index:99;
+}
+
+
+[type="tel"], [type="url"], [type="email"], [type="number"] {
+    direction: rtl;
+}
+
+a:hover {
+  color: var(--primary)
+}
+
+.intro {
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  margin: 50px 0;
+}
+
+.intro img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.card-img {
+  height: 300px;
+}
+
+.card-img img {
+  height: inherit;
+  max-width: 100%;
+}
+
+.detail-img {
+  height: 600px;
+}
+
+.list-group-item {
+  padding-right: 0;
+}
+
+.color {
+  color: #777;
+}
+
+.devices,
+.single-device ,
+.update-form {
+  margin: 100px 0;
+}
+
+.admin {
+  margin: 100px auto;
+}
+
+.title {
+  margin-bottom: 50px;
+  color:var(--primary);
+}
+
+.update-form {
+  width: 40%;
+}
+
+@media (max-width: 991px){
+    .update-form {
+    width: 100%;
+  }
+}
+
+
